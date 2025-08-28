@@ -1,113 +1,37 @@
-# ChinaDirectSecure.list
-# 国内全直连规则集（压缩优化版）
-# 更新时间：2025-08-28
+# 国内主要应用直连
+DOMAIN-SUFFIX,weixin.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,wechat.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,qq.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,alipay.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,taobao.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tmall.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,jd.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,12306.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,bilibili.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,iqiyi.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,youku.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,netease.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,sina.com.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,sohu.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tencent.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,baidu.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,meituan.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,dianping.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,kuaishou.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,xiaohongshu.com,DIRECT,no-resolve
 
-# 微信/支付
-DOMAIN-SUFFIX,weixin.com,DIRECT
-DOMAIN-SUFFIX,wechat.com,DIRECT
-DOMAIN-SUFFIX,wx.qq.com,DIRECT
-DOMAIN-SUFFIX,qq.com,DIRECT
-DOMAIN-SUFFIX,qpic.cn,DIRECT
-DOMAIN-SUFFIX,gtimg.com,DIRECT
-DOMAIN-SUFFIX,tenpay.com,DIRECT
-DOMAIN-SUFFIX,servicewechat.com,DIRECT
-DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
-DOMAIN-SUFFIX,wxapp.tc.qq.net,DIRECT
-DOMAIN-SUFFIX,wxapp.tc.qq.org,DIRECT
-DOMAIN-SUFFIX,wechatpay.com,DIRECT
-DOMAIN-SUFFIX,wx.tenpay.com,DIRECT
-DOMAIN-SUFFIX,wx.tenpay.hk,DIRECT
-DOMAIN-SUFFIX,gtimg.wechatpay.cn,DIRECT
-DOMAIN-SUFFIX,mch.tenpay.com,DIRECT
-DOMAIN-SUFFIX,qpay.qq.com,DIRECT
+# 苹果服务直连
+DOMAIN-SUFFIX,apple.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,icloud.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,gs.apple.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,push.apple.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,me.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,mzstatic.com,DIRECT,no-resolve
 
-# 支付宝
-DOMAIN-SUFFIX,alipay.com,DIRECT
-DOMAIN-SUFFIX,alipay.net,DIRECT
-DOMAIN-SUFFIX,alisdk.com,DIRECT
-
-# 电商
-DOMAIN-SUFFIX,taobao.com,DIRECT
-DOMAIN-SUFFIX,tmall.com,DIRECT
-DOMAIN-SUFFIX,jd.com,DIRECT
-DOMAIN-SUFFIX,pinduoduo.com,DIRECT
-DOMAIN-SUFFIX,mmstat.com,DIRECT
-
-# 银行/金融
-DOMAIN-SUFFIX,ccb.com,DIRECT
-DOMAIN-SUFFIX,icbc.com.cn,DIRECT
-DOMAIN-SUFFIX,abc.com.cn,DIRECT
-DOMAIN-SUFFIX,boc.cn,DIRECT
-DOMAIN-SUFFIX,bankcomm.com,DIRECT
-DOMAIN-SUFFIX,cmbchina.com,DIRECT
-DOMAIN-SUFFIX,unionpay.com,DIRECT
-DOMAIN-SUFFIX,bankofchina.com,DIRECT
-
-# 出行
-DOMAIN-SUFFIX,12306.cn,DIRECT
-DOMAIN-SUFFIX,didi.cn,DIRECT
-DOMAIN-SUFFIX,ctrip.com,DIRECT
-DOMAIN-SUFFIX,fliggy.com,DIRECT
-DOMAIN-SUFFIX,shenzhou.com,DIRECT
-
-# 社交/推送
-DOMAIN-SUFFIX,weibo.com,DIRECT
-DOMAIN-SUFFIX,sina.com.cn,DIRECT
-DOMAIN-SUFFIX,tencent.com,DIRECT
-DOMAIN-SUFFIX,imqq.com,DIRECT
-DOMAIN-SUFFIX,qqmail.com,DIRECT
-
-# 苹果中国服务
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,itunes.com,DIRECT
-DOMAIN-SUFFIX,appstore.com,DIRECT
-DOMAIN-SUFFIX,gs.apple.com,DIRECT
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,DIRECT
-
-# 常用国内广告/分析（避免干扰国内服务）
-DOMAIN-SUFFIX,umeng.com,DIRECT
-DOMAIN-SUFFIX,mi.com,DIRECT
-DOMAIN-SUFFIX,mi-img.com,DIRECT
-
-# 国内IP段直连
-IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
-IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
-IP-CIDR,36.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,39.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,42.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,58.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,59.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,60.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,61.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,101.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,103.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,106.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,110.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,111.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,112.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,113.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,114.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,115.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,116.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,117.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,118.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,119.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,120.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,121.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,122.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,123.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,124.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,125.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,126.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,175.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,180.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,182.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,183.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,184.0.0.0/8,DIRECT,no-resolve
-IP-CIDR,202.0.0.0/7,DIRECT,no-resolve
-IP-CIDR,210.0.0.0/7,DIRECT,no-resolve
-IP-CIDR,218.0.0.0/7,DIRECT,no-resolve
-IP-CIDR,220.0.0.0/7,DIRECT,no-resolve
-IP-CIDR,223.0.0.0/8,DIRECT,no-resolve
+# 国内 IP 段直连
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
+GEOIP,CN,DIRECT
