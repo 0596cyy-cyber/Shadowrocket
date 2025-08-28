@@ -1,0 +1,51 @@
+# GlobalProxy.list
+# 国外全覆盖规则集（压缩优化版）
+# 更新时间：2025-08-28
+
+# 社交平台
+DOMAIN-SUFFIX,twitter.com,🌐 国外服务
+DOMAIN-SUFFIX,facebook.com,🌐 国外服务
+DOMAIN-SUFFIX,instagram.com,🌐 国外服务
+DOMAIN-SUFFIX,telegram.org,🌐 国外服务
+DOMAIN-SUFFIX,telegram.me,🌐 国外服务
+DOMAIN-SUFFIX,discord.com,🌐 国外服务
+DOMAIN-SUFFIX,reddit.com,🌐 国外服务
+
+# 流媒体
+DOMAIN-SUFFIX,netflix.com,🎬 流媒体
+DOMAIN-SUFFIX,disneyplus.com,🎬 流媒体
+DOMAIN-SUFFIX,youtube.com,🎬 流媒体
+DOMAIN-SUFFIX,hulu.com,🎬 流媒体
+DOMAIN-SUFFIX,primevideo.com,🎬 流媒体
+DOMAIN-SUFFIX,apple.com,🎬 流媒体
+DOMAIN-SUFFIX,spotify.com,🎬 流媒体
+DOMAIN-SUFFIX,tiktok.com,🎬 流媒体
+
+# 游戏平台
+DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
+DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
+DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
+DOMAIN-SUFFIX,xbox.com,🎮 游戏平台
+DOMAIN-SUFFIX,riotgames.com,🎮 游戏平台
+
+# 开发/工具
+DOMAIN-SUFFIX,github.com,💻 开发平台
+DOMAIN-SUFFIX,openai.com,💻 开发平台
+DOMAIN-SUFFIX,google.com,💻 开发平台
+DOMAIN-SUFFIX,aws.amazon.com,💻 开发平台
+DOMAIN-SUFFIX,cloud.google.com,💻 开发平台
+DOMAIN-SUFFIX,heroku.com,💻 开发平台
+
+# 其他国外服务/代理
+DOMAIN-SUFFIX,vpn,🌐 国外服务
+DOMAIN-SUFFIX,proxy,🌐 国外服务
+DOMAIN-SUFFIX,global,🌐 国外服务
+
+# 国外IP段（可选）
+IP-CIDR,8.8.8.0/24,🌐 国外服务,no-resolve
+IP-CIDR,1.1.1.0/24,🌐 国外服务,no-resolve
+IP-CIDR,52.0.0.0/8,🌐 国外服务,no-resolve
+IP-CIDR,54.0.0.0/8,🌐 国外服务,no-resolve
+IP-CIDR,13.0.0.0/8,🌐 国外服务,no-resolve
+IP-CIDR,35.0.0.0/8,🌐 国外服务,no-resolve
+IP-CIDR,104.0.0.0/8,🌐 国外服务,no-resolve
