@@ -1,0 +1,23 @@
+# 微信相关直连
+DOMAIN-SUFFIX,weixin.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,wechat.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,weixin.qq.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tenpay.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,qq.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tencent.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net,DIRECT,no-resolve
+DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net,DIRECT,no-resolve
+DOMAIN-SUFFIX,apd-pcdnwxpush.teg.tencent-cloud.net,DIRECT,no-resolve
+DOMAIN-SUFFIX,apd-pcdnwx.teg.tencent-cloud.net,DIRECT,no-resolve
+
+# 腾讯游戏相关直连
+DOMAIN-SUFFIX,qcloud.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tencentcloudapi.com,DIRECT,no-resolve
+
+# 腾讯视频 / 音乐 / 其他服务
+DOMAIN-SUFFIX,qqvideo.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,qqmusic.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tenvideo.com,DIRECT,no-resolve
+
+# 本地局域网与国内 IP
+GEOIP,CN,DIRECT
