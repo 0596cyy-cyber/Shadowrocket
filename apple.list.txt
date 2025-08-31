@@ -1,0 +1,39 @@
+# Apple 服务直连规则
+# 确保 iCloud / Apple ID / App Store / Push / iMessage / FaceTime / 系统更新 全部直连
+
+# iCloud / Apple ID / 设置激活
+DOMAIN,setup.icloud.com,DIRECT
+DOMAIN,setup.apple.com,DIRECT
+DOMAIN,setupcdn.apple.com,DIRECT
+DOMAIN,gsa.apple.com,DIRECT
+DOMAIN,gs.apple.com,DIRECT
+
+# Apple Push Notification
+DOMAIN,courier.push.apple.com,DIRECT
+DOMAIN,push.apple.com,DIRECT
+DOMAIN,courier.fe.apple-dns.net,DIRECT
+
+# iMessage / FaceTime
+DOMAIN,init.ess.apple.com,DIRECT
+DOMAIN,identity.ess.apple.com,DIRECT
+DOMAIN,ppq.apple.com,DIRECT
+
+# App Store / 购买验证
+DOMAIN,buy.itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,apps.apple.com,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+
+# iCloud 同步与备份
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+
+# 系统更新 / 软件更新
+DOMAIN,mesu.apple.com,DIRECT
+DOMAIN,swcdn.apple.com,DIRECT
+DOMAIN,swdownload.apple.com,DIRECT
+DOMAIN,swquery.apple.com,DIRECT
+
+# Apple CDN / 资源下载
+DOMAIN-SUFFIX,cdn.apple.com,DIRECT
+DOMAIN-SUFFIX,appldnld.apple.com,DIRECT
