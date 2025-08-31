@@ -1,0 +1,31 @@
+
+# Shadowrocket 统计/上报黑名单
+# 屏蔽友盟、腾讯 MTA、TalkingData、百度统计、Bugly 等常见埋点/上报域名
+
+# ==== 友盟 Umeng ====
+DOMAIN-SUFFIX,umeng.com,REJECT
+DOMAIN-SUFFIX,umengcloud.com,REJECT
+
+# ==== 腾讯 MTA / Bugly ====
+DOMAIN-SUFFIX,pingma.qq.com,REJECT
+DOMAIN-SUFFIX,pingjs.qq.com,REJECT
+DOMAIN-SUFFIX,pingfore.qq.com,REJECT
+DOMAIN-SUFFIX,tajs.qq.com,REJECT
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,report.qq.com,REJECT
+
+# ==== TalkingData ====
+DOMAIN-SUFFIX,talkingdata.com,REJECT
+
+# ==== 百度统计 / 广告 ====
+DOMAIN-SUFFIX,hm.baidu.com,REJECT
+DOMAIN-SUFFIX,datax.baidu.com,REJECT
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+
+# ==== Google Firebase / Analytics ====
+DOMAIN-SUFFIX,app-measurement.com,REJECT
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com,REJECT
+DOMAIN-SUFFIX,google-analytics.com,REJECT
+
+# ==== Branch (常见埋点) ====
+DOMAIN-SUFFIX,branch.io,REJECT
