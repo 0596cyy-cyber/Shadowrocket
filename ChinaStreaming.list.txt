@@ -1,0 +1,13 @@
+# 📺 ChinaStreaming.list - 国内流媒体域名黑名单/直连
+
+iqiyi.com
+letv.com
+sohu.com
+youku.com
+bilibili.com
+mgtv.com
+acfun.cn
+fun.tv
+baofeng.com
+pptv.com
+xigua.com
