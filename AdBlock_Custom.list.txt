@@ -1,0 +1,46 @@
+# Custom AdBlock List - User Supplement
+# 常见国内 App 广告 & 追踪域名补充清单
+
+# 腾讯广告
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
+DOMAIN-SUFFIX,pgdt.ugdtimg.com,REJECT
+DOMAIN-SUFFIX,ad.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+
+# 爱奇艺广告
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com,REJECT
+DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+
+# 优酷广告
+DOMAIN-SUFFIX,atm.youku.com,REJECT
+DOMAIN-SUFFIX,iyes.youku.com,REJECT
+
+# 哔哩哔哩广告
+DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+DOMAIN-SUFFIX,ad.bilibili.com,REJECT
+
+# 抖音/字节广告
+DOMAIN-SUFFIX,ad.byted.pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,ads.tiktokglobalshop.com,REJECT
+DOMAIN-SUFFIX,log.snssdk.com,REJECT
+
+# 小米广告
+DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,api-ad.xiaomi.com,REJECT
+
+# 华为广告
+DOMAIN-SUFFIX,adserver.hicloud.com,REJECT
+DOMAIN-SUFFIX,metrics1.data.hicloud.com,REJECT
+
+# OPPO/VIVO 广告
+DOMAIN-SUFFIX,adsfs.oppomobile.com,REJECT
+DOMAIN-SUFFIX,adsdk.vivo.com.cn,REJECT
+
+# 常见统计/埋点
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-KEYWORD,track,REJECT
+DOMAIN-KEYWORD,analytics,REJECT
+DOMAIN-KEYWORD,adservice,REJECT
