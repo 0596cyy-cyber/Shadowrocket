@@ -1,0 +1,11 @@
+DOMAIN,gemini.google.com
+DOMAIN,gemini.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,ai.googleusercontent.com
+DOMAIN,deepmind.google
+DOMAIN,bard.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,proactive.google.com
+DOMAIN,experiments.withgoogle.com
+DOMAIN,ai.google
