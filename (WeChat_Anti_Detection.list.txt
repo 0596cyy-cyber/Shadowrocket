@@ -1,0 +1,25 @@
+# --- 微信统计与日志上报 (拦截，防止上报插件注入行为) ---
+DOMAIN,log.weixin.qq.com,REJECT
+DOMAIN,shortlog.weixin.qq.com,REJECT
+DOMAIN,extlog.weixin.qq.com,REJECT
+DOMAIN,badjs.weixin.qq.com,REJECT
+DOMAIN,dns.weixin.qq.com,REJECT
+DOMAIN,monitor.wechat.com,REJECT
+
+# --- 自动更新与灰度测试 (拦截，防止强制升级失效) ---
+DOMAIN,support.weixin.qq.com,REJECT
+DOMAIN,dldir1.vcloudwin.com,REJECT
+
+# --- 核心通讯与支付 (强制直连，防止 IP 变动触发封号) ---
+DOMAIN-SUFFIX,wechat.com,DIRECT
+DOMAIN-SUFFIX,weixin.com,DIRECT
+DOMAIN-SUFFIX,tenpay.com,DIRECT
+DOMAIN-SUFFIX,wechatpay.com,DIRECT
+# 微信头像与静态资源
+DOMAIN-SUFFIX,qlogo.cn,DIRECT
+DOMAIN-SUFFIX,qpic.cn,DIRECT
+
+# --- 微信特定服务器 IP 段 (防止漏网之鱼) ---
+IP-CIDR,101.32.104.4/32,DIRECT,no-resolve
+IP-CIDR,129.226.3.47/32,DIRECT,no-resolve
+IP-CIDR,162.62.163.63/32,DIRECT,no-resolve
