@@ -1,0 +1,50 @@
+# Apple Complete Rule List
+# 包含 App Store, iCloud, Apple Music, Maps, Push Services, OS Updates 等
+
+# --- 核心域名 (覆盖绝大多数服务) ---
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mac.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-support.com
+
+# --- 资源与CDN (App Store图标、音乐封面、应用下载) ---
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,organicfruitapps.com
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+
+# --- 开发者与测试 ---
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,testflight.apple.com
+
+# --- Apple News (国内通常无法直接访问，建议分流) ---
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,apple-news.com
+
+# --- 证书验证 (保障 HTTPS 连接安全) ---
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,entrust.net
+DOMAIN-SUFFIX,verisign.net
+
+# --- 特殊短链接与服务 ---
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,icloud.net
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,aaplimg.com
+
+# --- 关键字匹配 (兜底) ---
+# 防止某些使用了非常见子域名的苹果服务漏网
+DOMAIN-KEYWORD,apple-support
+DOMAIN-KEYWORD,apple.com
+DOMAIN-KEYWORD,icloud.com
