@@ -45,6 +45,6 @@ DOMAIN-SUFFIX,aaplimg.com
 
 # --- 关键字匹配 (兜底) ---
 # 防止某些使用了非常见子域名的苹果服务漏网
-DOMAIN-KEYWORD,apple-support
-DOMAIN-KEYWORD,apple.com
-DOMAIN-KEYWORD,icloud.com
+DOMAIN-SUFFIX,apple-support
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
