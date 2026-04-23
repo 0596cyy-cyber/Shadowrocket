@@ -1,0 +1,49 @@
+# --- Domestic Shopping & Life Services ---
+# Updated: 2026-04-23
+# Repo: 0596cyy-cyber
+
+# [阿里巴巴 / 淘宝 / 天猫 / 闲鱼]
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tbcache.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,xianyu.com
+DOMAIN-SUFFIX,mtop.com
+
+# [京东]
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buy.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,jcloudcs.com
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,vland.com
+
+# [拼多多]
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,pinduoduo.net
+DOMAIN-SUFFIX,pdduo.com
+
+# [美团 / 饿了么]
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,dpfile.com
+DOMAIN-SUFFIX,ele.me
+DOMAIN-SUFFIX,elemecdn.com
+
+# [其它电商: 苏宁 / 唯品会 / 小红书]
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,vip.com
+DOMAIN-SUFFIX,vipstatic.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhsimg.com
+
+# [支付与物流]
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,sf-express.com
+DOMAIN-SUFFIX,cainiao.com
+DOMAIN-SUFFIX,cainiaozhan.com
