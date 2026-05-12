@@ -1,23 +1,43 @@
-# 微信相关直连
-DOMAIN-SUFFIX,weixin.com,DIRECT,no-resolve
-DOMAIN-SUFFIX,wechat.com,DIRECT,no-resolve
-DOMAIN-SUFFIX,weixin.qq.com,DIRECT,no-resolve
-DOMAIN-SUFFIX,tenpay.com,DIRECT,no-resolve
-DOMAIN-SUFFIX,qq.com,DIRECT,no-resolve
-DOMAIN-SUFFIX,tencent.com,DIRECT,no-resolve
-DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net,DIRECT,no-resolve
-DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net,DIRECT,no-resolve
-DOMAIN-SUFFIX,apd-pcdnwxpush.teg.tencent-cloud.net,DIRECT,no-resolve
-DOMAIN-SUFFIX,apd-pcdnwx.teg.tencent-cloud.net,DIRECT,no-resolve
+# === 腾讯系全家桶直连 ===
 
-# 腾讯游戏相关直连
+# 核心通讯与社交 (WeChat, QQ)
+DOMAIN-SUFFIX,qq.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,qq.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,tencent.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tencent.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,wechat.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,wechat.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,weixin.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,weixin.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,tenpay.com,DIRECT,no-resolve
+
+# 静态资源与 CDN (决定图片/表情加载速度)
+DOMAIN-SUFFIX,gtimg.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,gtimg.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,qpic.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,qlogo.cn,DIRECT,no-resolve
+DOMAIN-SUFFIX,idqqimg.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,mqq.com,DIRECT,no-resolve
+
+# 腾讯视频与音乐
+DOMAIN-SUFFIX,qqvideo.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tenvideo.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,v.qq.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,qqmusic.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,y.qq.com,DIRECT,no-resolve
+
+# 办公、会议与云服务
+DOMAIN-SUFFIX,tencentmeeting.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,weiyun.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,myqcloud.com,DIRECT,no-resolve
 DOMAIN-SUFFIX,qcloud.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tencent-cloud.net,DIRECT,no-resolve
+DOMAIN-SUFFIX,tencentcs.com,DIRECT,no-resolve
 DOMAIN-SUFFIX,tencentcloudapi.com,DIRECT,no-resolve
 
-# 腾讯视频 / 音乐 / 其他服务
-DOMAIN-SUFFIX,qqvideo.com,DIRECT,no-resolve
-DOMAIN-SUFFIX,qqmusic.com,DIRECT,no-resolve
-DOMAIN-SUFFIX,tenvideo.com,DIRECT,no-resolve
+# 游戏相关
+DOMAIN-SUFFIX,tmgp.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,tgp.qq.com,DIRECT,no-resolve
 
-# 本地局域网与国内 IP
-GEOIP,CN,DIRECT
+# 微信特殊推送/登录节点
+DOMAIN-KEYWORD,tencent-cloud.net,DIRECT,no-resolve
